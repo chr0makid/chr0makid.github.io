@@ -1,4 +1,4 @@
 "Сайт визитка" - это типовой одностраничный сайт. Цель сайта: показать свое портфолио заказчику.
 
-| **GithHub Pages** | **GithHub Pages** | [Сайт визитка на GitHub Pages](https://goldlexx.github.io/card-website/) | 
+| **@marshal_work** | **GithHub Pages** | [Сайт визитка на GitHub Pages](https://goldlexx.github.io/card-website/) | 
 | ----------------- | ----------------- | -------------------------------------------------------------------- |
