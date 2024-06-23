@@ -257,7 +257,7 @@ img {
   display: inline-block;
   line-height: 1;
   text-decoration: none;
-  color: #c7c7c7;
+  color: #000;
 }
 
 .project__link::after {
@@ -265,7 +265,7 @@ img {
   display: block;
   width: 0%;
   height: 2px;
-  background-color: #c7c7c7;
+  background-color: #275bec;
   transition: width 0.4s ease-in-out;
 }
 
