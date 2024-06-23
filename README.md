@@ -1,4 +1,4 @@
-| **@marshal_work** | **GithHub Pages** | [Сайт визитка на GitHub Pages](https://marshalwork.github.io/) | 
+| **@marshal_work** | **GithHub Pages** | [My Website](https://marshalwork.github.io/) | 
 | ----------------- | ----------------- | -------------------------------------------------------------------- |
 
 - 👋 Hi, I’m Marshal
