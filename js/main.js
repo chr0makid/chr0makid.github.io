@@ -1,6 +1,6 @@
 $(window).on('load', function(){
     // Vide.js - video bg
-    $('#header').vide('./video/cover', {
-        bgColor: '#7d7c6a'
+    $('#header').vide('./video/website-main-banner', {
+        bgColor: '#000'
     });
 });
