@@ -23,10 +23,6 @@
 }
 
 @media (max-width: 760px) {
-
-    .header {
-        height: 50vh; /* Установите подходящую высоту для маленьких экранов */
-    }
     .header__title {
         font-size: 32px;
     }
