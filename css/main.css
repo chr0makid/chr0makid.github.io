@@ -30,7 +30,7 @@ img {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: url('./video/website-main-banner');
   background-position: center;
   background-size: cover;
