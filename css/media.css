@@ -23,6 +23,9 @@
 }
 
 @media (max-width: 760px) {
+    .header__arrow{
+        bottom: 0px;
+    }
     .header__title {
         font-size: 32px;
     }
