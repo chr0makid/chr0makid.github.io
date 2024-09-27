@@ -33,7 +33,7 @@ img {
   height: 100vh;
   background-position: center;
   background-size: cover;
-  background-image: url(../video/website-main-banner.png);
+  background-image: url(../banner/website-main-banner.png);
 }
 
 .header__title {
