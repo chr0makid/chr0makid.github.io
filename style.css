@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
-  background: #0a0a23;
-  color: #fff;
+  background: #000; /* Full black background */
+  color: #fff; /* White text */
   line-height: 1.6;
 }
 
@@ -16,26 +16,30 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid #0f0; /* Green glow */
+  box-shadow: 0 0 10px #0f0;
 }
 
 h1 {
   margin: 10px 0;
   font-family: 'Press Start 2P', cursive;
-  color: #fff;
+  color: #0f0; /* Green */
   font-size: 24px;
-  text-shadow: 0 0 5px cyan;
+  text-shadow: 0 0 10px #0f0;
 }
 
 .roles {
   font-size: 14px;
+  color: #fff;
   opacity: 0.8;
 }
 
 .about {
-  background: #11163a;
+  background: #050505;
   padding: 30px 20px;
   text-align: center;
+  border-top: 1px solid #0f0;
+  border-bottom: 1px solid #0f0;
 }
 
 .about .qualities {
@@ -46,9 +50,22 @@ h1 {
   font-size: 14px;
 }
 
+.about .qualities div {
+  background: #000;
+  padding: 12px;
+  border: 1px solid #0f0;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 0 5px #0f0;
+}
+
 .skills {
   padding: 40px 20px;
   text-align: center;
+}
+
+.skills h2 {
+  color: #0f0;
 }
 
 .skills-grid {
@@ -60,17 +77,23 @@ h1 {
 }
 
 .skills-grid span {
-  background: #1e1e3f;
+  background: #000;
+  border: 1px solid #0f0;
+  color: #0f0;
   padding: 10px 15px;
   border-radius: 8px;
   font-weight: bold;
-  box-shadow: 0 0 5px #00fff2;
+  box-shadow: 0 0 5px #0f0;
 }
 
 .inspirations {
-  background: #151539;
+  background: #050505;
   padding: 40px 20px;
   text-align: center;
+}
+
+.inspirations h2 {
+  color: #0f0;
 }
 
 .cards {
@@ -81,15 +104,25 @@ h1 {
 }
 
 .card {
-  background: #1e1e4a;
+  background: #000;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 0 10px #0099ff50;
+  border: 1px solid #0f0;
+  box-shadow: 0 0 10px #0f0;
+  color: #fff;
+}
+
+.card h3 {
+  color: #0f0;
 }
 
 .gallery {
   padding: 40px 20px;
   text-align: center;
+}
+
+.gallery h2 {
+  color: #0f0;
 }
 
 .pixel-art {
@@ -102,13 +135,15 @@ h1 {
 .pixel-art img {
   width: 200px;
   border-radius: 10px;
-  box-shadow: 0 0 10px #00ffea80;
+  box-shadow: 0 0 10px #0f0;
+  border: 1px solid #0f0;
 }
 
 footer {
   text-align: center;
   padding: 20px;
-  background: #0a0a1f;
+  background: #000;
   font-size: 14px;
-  opacity: 0.7;
+  color: #0f0;
+  opacity: 0.8;
 }
