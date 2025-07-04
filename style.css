@@ -1,128 +1,50 @@
 body {
   margin: 0;
-  font-family: 'Rubik', sans-serif;
-  background: #000; /* Full black background */
-  color: #fff; /* White text */
+  background-color: #000;
+  color: #00ff88; /* soft green */
+  font-family: 'VT323', monospace;
   line-height: 1.6;
 }
 
-.hero {
-  text-align: center;
-  padding: 40px 20px;
-  background: url('background.png') center/cover no-repeat;
-}
-
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 3px solid #0f0; /* Green glow */
-  box-shadow: 0 0 10px #0f0;
-}
-
-h1 {
-  margin: 10px 0;
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Press Start 2P', cursive;
-  color: #0f0; /* Green */
-  font-size: 24px;
-  text-shadow: 0 0 10px #0f0;
+  color: #00ff88;
+  text-shadow: 0 0 4px #00ff8844;
 }
 
-.roles {
-  font-size: 14px;
-  color: #fff;
-  opacity: 0.8;
-}
-
-.about {
-  background: #050505;
-  padding: 30px 20px;
-  text-align: center;
-  border-top: 1px solid #0f0;
-  border-bottom: 1px solid #0f0;
-}
-
-.about .qualities {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 10px;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-.about .qualities div {
-  background: #000;
-  padding: 12px;
-  border: 1px solid #0f0;
-  border-radius: 8px;
-  color: #fff;
-  box-shadow: 0 0 5px #0f0;
-}
-
-.skills {
+section {
   padding: 40px 20px;
+  border-top: 1px solid #003322;
+  border-bottom: 1px solid #003322;
   text-align: center;
 }
 
-.skills h2 {
-  color: #0f0;
-}
-
-.skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
-}
-
-.skills-grid span {
+.intro {
   background: #000;
-  border: 1px solid #0f0;
-  color: #0f0;
-  padding: 10px 15px;
-  border-radius: 8px;
-  font-weight: bold;
-  box-shadow: 0 0 5px #0f0;
 }
 
-.inspirations {
-  background: #050505;
-  padding: 40px 20px;
-  text-align: center;
+.intro h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-.inspirations h2 {
-  color: #0f0;
+.intro p {
+  font-size: 16px;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+.about p,
+.skills ul,
+.games ul,
+.team p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
 }
 
-.card {
-  background: #000;
-  padding: 20px;
-  border-radius: 12px;
-  border: 1px solid #0f0;
-  box-shadow: 0 0 10px #0f0;
-  color: #fff;
-}
-
-.card h3 {
-  color: #0f0;
-}
-
-.gallery {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.gallery h2 {
-  color: #0f0;
+.skills ul li,
+.games ul li {
+  margin-bottom: 20px;
 }
 
 .pixel-art {
@@ -134,16 +56,26 @@ h1 {
 
 .pixel-art img {
   width: 200px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #0f0;
-  border: 1px solid #0f0;
+  border: 2px solid #00ff88;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #00ff8844;
 }
 
 footer {
+  background: #000;
   text-align: center;
   padding: 20px;
-  background: #000;
   font-size: 14px;
-  color: #0f0;
-  opacity: 0.8;
+  border-top: 1px solid #003322;
+}
+
+footer .links a {
+  margin: 0 10px;
+  color: #00ff88;
+  text-decoration: none;
+  font-family: 'VT323', monospace;
+}
+
+footer .links a:hover {
+  text-shadow: 0 0 6px #00ff8877;
 }
