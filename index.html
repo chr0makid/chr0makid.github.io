@@ -5,16 +5,97 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fedir D. | chromakid</title>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      background: url('images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+      font-family: 'VT323', monospace;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Press Start 2P', cursive;
+      color: #ffffff;
+      text-shadow: 0 0 6px #ffffffaa;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-bottom: 20px;
+    }
+
+    section img.section-img {
+      width: 300px;
+      margin-bottom: 30px;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 12px #ffffffaa;
+    }
+
+    .intro p,
+    .about p,
+    .skills ul,
+    .games ul,
+    .team p {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+      font-size: 20px;
+    }
+
+    .skills ul li,
+    .games ul li {
+      margin-bottom: 20px;
+    }
+
+    .pixel-art {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .pixel-art img {
+      width: 200px;
+      border: 2px solid #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ffffffaa;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+
+    footer .links a {
+      margin: 0 10px;
+      color: #ffffff;
+      text-decoration: none;
+      font-family: 'VT323', monospace;
+    }
+
+    footer .links a:hover {
+      text-shadow: 0 0 6px #ffffff;
+    }
+  </style>
 </head>
 <body>
 
   <section class="intro">
+    <img src="images/intro.png" alt="Intro Art" class="section-img">
     <h1>Fedir D. / chromakid</h1>
     <p>Junior Unity Developer • Game Designer • Pixel Enthusiast</p>
   </section>
 
   <section class="about">
+    <img src="images/who-am-i.png" alt="Who Am I" class="section-img">
     <h2>Who am I?</h2>
     <p>
       Junior C# and Unity Developer with strong design and branding skills. Passionate about game development, interactive experiences, and clean code. Experienced in both technical and visual aspects of development — from gameplay logic to UI/UX, logo creation, and motion design. Enthusiastic about learning, community-driven initiatives, and delivering meaningful work that combines creativity and functionality.
@@ -22,15 +103,17 @@
   </section>
 
   <section class="skills">
+    <img src="images/my-skills.png" alt="My Skills" class="section-img">
     <h2>My Skills and Preferences</h2>
     <ul>
-      <li><strong>Development:</strong> C#, Unity, .NET, OOP, GitHub, GitHub Pages, HTML, CSS, API integration, Python (Telegram bots)</li>
+      <li><strong>Development:</strong> C#, Unity, .NET, OOP, GitHub, GitHub Pages, HTML, CSS, API integration, Python (Telegram bots), Firebase (basic)</li>
       <li><strong>Design & Media:</strong> Illustrator, Photoshop, Premiere Pro, UI, logos, branding</li>
       <li><strong>Soft Skills:</strong> Communication, teamwork, self-learning, time management, creative thinking</li>
     </ul>
   </section>
 
   <section class="games">
+    <img src="images/my-games.png" alt="My Games" class="section-img">
     <h2>My Games</h2>
     <ul>
       <li><strong>Christmas Game Jam (Itch.io)</strong><br>
@@ -47,15 +130,17 @@
   </section>
 
   <section class="art">
+    <img src="images/my-art.png" alt="My Art" class="section-img">
     <h2>My Art</h2>
     <div class="pixel-art">
-      <img src="art-1.png" alt="Pixel Art 1">
-      <img src="art-2.png" alt="Pixel Art 2">
-      <img src="art-3.png" alt="Pixel Art 3">
+      <img src="images/art1.png" alt="Pixel Art 1">
+      <img src="images/art2.png" alt="Pixel Art 2">
+      <img src="images/art3.png" alt="Pixel Art 3">
     </div>
   </section>
 
   <section class="team">
+    <img src="images/team.png" alt="Teamwork" class="section-img">
     <h2>What am I looking for?</h2>
     <p>
       I'm currently looking for a team of passionate creators. I want to collaborate with developers, artists, and storytellers who care about emotion, style, and experimentation in games. If you're building something thoughtful or experimental, I'm eager to contribute.
