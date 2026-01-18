@@ -1,64 +1,77 @@
 body {
-    background-color: #121212; /* Глубокий темный фон приложения */
-    color: #e0e0e0; /* Светлый текст по умолчанию */
-    font-family: sans-serif;
+    background-color: #0d0d0d; /* Глубже темный фон */
+    color: #e0e0e0;
+    font-family: 'Roboto Mono', monospace; /* Моноширинный шрифт, как любят программисты */
     margin: 0;
-    padding: 0;
+    padding: 20px;
     line-height: 1.6;
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #1e1e1e; /* Темный фон карточек/блоков */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Отступы между карточками */
+}
+
+.card {
+    background-color: #1e1e1e; /* Темный фон карточек */
+    padding: 30px;
+    border-radius: 12px; /* Более мягкие углы */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 h1, h2 {
-    color: #9370db; /* Приглушенный фиолетовый для заголовков */
+    color: #a07dff; /* Яркий, современный фиолетовый акцент */
+    border-bottom: 2px solid #a07dff40; /* Легкая линия под заголовком */
+    padding-bottom: 10px;
 }
 
 a.download-button {
-    background-color: #9370db; /* Яркий фиолетовый акцент, как в приложении */
+    /* Современный градиент для кнопки */
+    background: linear-gradient(45deg, #a07dff, #7b68ee);
     color: white;
-    padding: 12px 24px;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 5px; /* Немного скругленные углы */
+    border-radius: 8px;
     font-weight: bold;
     display: inline-block;
-    margin-top: 10px;
-    transition: background-color 0.3s;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(160, 125, 255, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
 a.download-button:hover {
-    background-color: #7b68ee; /* Более темный фиолетовый при наведении */
+    transform: translateY(-2px); /* Легкий эффект при наведении */
+    box-shadow: 0 6px 15px rgba(160, 125, 255, 0.4);
 }
 
 .checksum {
     font-size: 0.8em;
-    color: #4CAF50; /* Зеленый цвет успеха из приложения */
+    color: #4CAF50; /* Зеленый цвет успеха */
     margin-top: 10px;
 }
 
 .screenshots {
-    margin-top: 40px;
+    /* Ничего не меняем здесь, только класс card добавлен */
 }
 
 .screenshot-gallery {
     display: flex;
-    gap: 10px;
-    overflow-x: auto; /* Горизонтальный скролл для скриншотов */
+    gap: 15px;
+    overflow-x: auto;
+    padding-top: 10px;
 }
 
 .screenshot-gallery img {
-    width: 200px;
+    width: 250px; /* Сделаем чуть больше */
     height: auto;
     border-radius: 8px;
     border: 1px solid #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .more-info {
-    margin-top: 40px;
+    /* Ничего не меняем здесь, только класс card добавлен */
 }
